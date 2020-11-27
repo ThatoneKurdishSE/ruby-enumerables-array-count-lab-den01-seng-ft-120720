@@ -1,6 +1,5 @@
 def count_strings(array)
-  array.count("") do |element|
-    element.string?
+  array.count("") do |s
 total+=1
 end
 
