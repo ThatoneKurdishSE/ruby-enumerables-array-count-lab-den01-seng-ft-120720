@@ -1,5 +1,6 @@
 def count_strings(array)
-array.count do element_class==string
+array.count do
+  element_class==string
 end
 end
 def count_empty_strings(array)
